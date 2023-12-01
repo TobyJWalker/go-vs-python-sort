@@ -34,6 +34,6 @@ func main() {
 	bubbleSort(num_list)
 	elapsed := time.Since(start)
 
-	fmt.Printf("%dms", elapsed.Milliseconds())
+	fmt.Printf("%fms", elapsed.Seconds())
 
 }

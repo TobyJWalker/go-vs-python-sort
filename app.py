@@ -22,4 +22,4 @@ start = time.time()
 bubble_sort(num_list)
 end = time.time()
 
-print(f"{(end - start)*1000}ms")
+print(f"{(end - start)}s")
