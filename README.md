@@ -5,6 +5,8 @@ I will be comparing the execution speed of Go and Python when running a basic bu
 
 ## Running Comparisons
 
+**Note: These comparisons will take a moment, especially for Python.**
+
 ### Go
 ```
 go run app.go
