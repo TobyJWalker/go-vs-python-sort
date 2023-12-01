@@ -2,7 +2,7 @@ import random
 import time
 
 def bubble_sort(num_list):
-    n = 10000
+    n = len(num_list)
     swapped = True
 
     while swapped:
@@ -15,7 +15,7 @@ def bubble_sort(num_list):
 
 num_list = []
 
-for i in range(10000):
+for i in range(100000):
     num_list.append(random.randint(0, 100))
 
 start = time.time()

@@ -26,7 +26,7 @@ func main() {
 
 	var num_list []int
 
-	for i := 0; i < 10000; i++ {
+	for i := 0; i < 100000; i++ {
 		num_list = append(num_list, rand.Intn(100))
 	}
 
