@@ -21,7 +21,7 @@ python app.py
 
 You will observe that Go is much, much more efficient than Python due to being more lightweight, with low performance overhead. Go is also compiled to machine code, whereas Python is interpreted at runtime. This is why Go is much faster than Python.
 
-Here are the results I got on average, rounded to 2 decimal places:
+Here are the results I got on an M1 Macbook Air on average, rounded to 2 decimal places:
 
 - Go: 13.52 seconds
 - Python: 379.18 seconds
